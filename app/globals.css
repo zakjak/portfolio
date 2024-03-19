@@ -6,12 +6,11 @@
 @tailwind utilities;
 
 *{
-  margin: 0;
-  padding: 0;
+  @apply p-0 m-0;
 }
 
 body{
-  box-sizing: border-box;
+  @apply min-h-screen bg-gray-100 box-border;
 }
 
 .logo{
