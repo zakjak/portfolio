@@ -10,7 +10,7 @@
 }
 
 body{
-  @apply min-h-screen bg-gray-100 box-border;
+  @apply min-h-screen scroll-smooth bg-gray-100 box-border;
 }
 
 .logo{

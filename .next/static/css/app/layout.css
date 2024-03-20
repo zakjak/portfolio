@@ -1034,6 +1034,9 @@ input:checked + .toggle-bg{
 .relative{
   position: relative;
 }
+.sticky{
+  position: sticky;
+}
 .inset-y-0{
   top: 0px;
   bottom: 0px;
@@ -1184,6 +1187,9 @@ input:checked + .toggle-bg{
 }
 .z-50{
   z-index: 50;
+}
+.z-\[999\]{
+  z-index: 999;
 }
 .z-auto{
   z-index: auto;
@@ -1381,6 +1387,9 @@ input:checked + .toggle-bg{
 .h-\[15rem\]{
   height: 15rem;
 }
+.h-\[25rem\]{
+  height: 25rem;
+}
 .h-\[30rem\]{
   height: 30rem;
 }
@@ -1406,32 +1415,11 @@ input:checked + .toggle-bg{
 .h-screen{
   height: 100vh;
 }
-.h-\[20rem\]{
-  height: 20rem;
-}
-.h-\[50rem\]{
-  height: 50rem;
-}
-.h-\[25rem\]{
-  height: 25rem;
-}
-.max-h-\[90dvh\]{
-  max-height: 90dvh;
-}
-.max-h-12{
-  max-height: 3rem;
-}
-.max-h-16{
-  max-height: 4rem;
-}
 .max-h-24{
   max-height: 6rem;
 }
-.min-h-12{
-  min-height: 3rem;
-}
-.min-h-16{
-  min-height: 4rem;
+.max-h-\[90dvh\]{
+  max-height: 90dvh;
 }
 .min-h-24{
   min-height: 6rem;
@@ -2880,6 +2868,10 @@ input:checked + .toggle-bg{
   --tw-text-opacity: 1;
   color: rgb(119 29 29 / var(--tw-text-opacity));
 }
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
 .text-slate-800{
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
@@ -2934,10 +2926,6 @@ input:checked + .toggle-bg{
 .text-zinc-600{
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
-}
-.text-slate-200{
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -3155,6 +3143,7 @@ input:checked + .toggle-bg{
 body{
   box-sizing: border-box;
   min-height: 100vh;
+  scroll-behavior: smooth;
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }

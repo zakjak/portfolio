@@ -10,7 +10,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Introduction = () => {
   return (
-    <section className="grid grid-cols-2 bg-black h-[30rem] text-white">
+    <section id="about" className="grid z-10 grid-cols-2 bg-black h-[30rem] text-white">
         <div className="h-full w-full  flex items-center justify-center">
           <div className="top-7 relative">
             <div className="absolute w-full h-[70%] bottom-0 rounded-t-full bg-gradient-to-t from-zinc-900 to-black" />
