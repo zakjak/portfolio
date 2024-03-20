@@ -47,7 +47,6 @@ export const projects = [
             '/assets/blog/blog-6.png',
             '/assets/blog/blog-7.png',
             '/assets/blog/blog-8.png',
-            '/assets/blog/blog-9.png',
         ],
         techs: [<SiTailwindcss/>, <SiTailwindcss/>]
     }

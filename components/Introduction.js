@@ -10,11 +10,11 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Introduction = () => {
   return (
-    <section id="about" className="grid z-10 grid-cols-2 bg-black h-[30rem] text-white">
+    <section id="about" className="md:grid items-center flex-col z-10 md:grid-cols-2 bg-black md:h-[30rem] text-white">
         <div className="h-full w-full  flex items-center justify-center">
-          <div className="top-7 relative">
+          <div className="lg:top-7 relative">
             <div className="absolute w-full h-[70%] bottom-0 rounded-t-full bg-gradient-to-t from-zinc-900 to-black" />
-            <Image className="top z-50 relative" src='/1.png' width={340} height={3000} />
+              <Image className="top z-50 relative" src='/1.png' width={340} height={3000} />
             <div className="absolute top-0 h-full bg-gradient-to-r to-transparent w-[13rem]"></div>
           </div>
             <FaHtml5 className="icons top-[10%] left-[10%] absolute" />
@@ -30,8 +30,8 @@ const Introduction = () => {
             <SiTailwindcss className="icons top-[40%] left-[80%]" />
         </div>
         <div className="py-28 ">
-          <h1 className="text-3xl intro "><span className="to-zinc-200 bg-clip-text text-transparent bg-gradient-to-r from-zinc-100">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
-          <p className="mt-4 text-justify w-[70%]">
+          <h1 className="text-3xl intro text-center"><span className="to-zinc-200 bg-clip-text text-transparent bg-gradient-to-r from-zinc-100">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
+          <p className="mt-4 text-justify w-[70%] mx-auto">
             I am thrilled to welcome you to my portfolio, 
             where the worlds of petroleum engineering and 
             full stack development intersect. I invite you 

@@ -9,7 +9,7 @@ const Projects = () => {
       font-semibold text-slate-800 drop-shadow-xl'>
         My Works
       </h1>
-      <div className='grid grid-cols-3 gap-2 w-[90%] mx-auto'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 w-[90%] mx-auto'>
         {projects.map(project => (
           <Card key={project.id} project={project} />
         ))}
