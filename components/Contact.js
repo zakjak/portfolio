@@ -10,10 +10,10 @@ const Contact = () => {
         </h1>
         <div className='w-full flex items-center justify-center'>
             <form className='w-[30rem] flex flex-col gap-4 my-4'>
-                <TextInput type='text' className='' placeholder='Enter fullname' />
-                <TextInput type='email' placeholder='Enter Email' />
-                <Textarea placeholder='Enter message' className='min-h-24 max-h-24' />
-                <Button>Submit</Button>
+              <TextInput type='text' className='' placeholder='Enter fullname' />
+              <TextInput type='email' placeholder='Enter Email' />
+              <Textarea placeholder='Enter message' className='min-h-24 max-h-24' />
+              <Button>Submit</Button>
             </form>
         </div>
     </div>

@@ -4,7 +4,7 @@ import Card from './Card'
 
 const Projects = () => {
   return (
-    <div id='projects' className='py-6'>
+    <div id='projects' className='py-6 z-50 bg-zinc-200'>
       <h1 className='text-center mb-4 text-3xl 
       font-semibold text-slate-800 drop-shadow-xl'>
         My Works

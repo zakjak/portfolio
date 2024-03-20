@@ -2,17 +2,18 @@
 import Image from 'next/image'
 import React from 'react'
 import { Carousel } from 'flowbite-react'
+import Link from 'next/link'
 
 const Card = ({ project }) => {
   return (
-    <div className='w-full shadow-xl flex flex-col gap-2 rounded-2xl overflow-hidden'>
-        <div className='w-full h-[15rem] cursor-pointer'>
+    <div className='w-full bg-white shadow-xl flex flex-col gap-2 rounded-t-2xl overflow-hidden'>
+        <Link href={project.href} className='w-full h-[15rem]'>
             <Carousel leftControl=' ' indicators={false} rightControl=' '>
                 {project.pics.map(pic => (
                     <Image className='w-full h-full object-cover' src={pic} width={200} height={250} />
                 ))}
             </Carousel>
-        </div>
+        </Link>
         <div className='px-6 py-4 flex flex-col gap-2'>
             <h2 className='font-semibold text-xl text-zinc-600'>{project.title}</h2>
             <p className='text-sm text-gray-500 w-[80%] text-justify'>{project.desc}</p>

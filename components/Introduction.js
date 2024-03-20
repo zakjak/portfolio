@@ -10,11 +10,11 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Introduction = () => {
   return (
-    <section id="about" className="md:grid items-center flex-col z-10 md:grid-cols-2 bg-black md:h-[30rem] text-white">
+    <section id="about" className="md:grid overflow-hidden items-center flex-col md:grid-cols-2 bg-black md:h-[30rem] text-white">
         <div className="h-full w-full  flex items-center justify-center">
-          <div className="lg:top-7 relative">
+          <div className="relative top-10">
             <div className="absolute w-full h-[70%] bottom-0 rounded-t-full bg-gradient-to-t from-zinc-900 to-black" />
-              <Image className="top z-50 relative" src='/1.png' width={340} height={3000} />
+              <Image className="top z-50 relative w-full h-full" src='/1.png' width={340} height={3000} />
             <div className="absolute top-0 h-full bg-gradient-to-r to-transparent w-[13rem]"></div>
           </div>
             <FaHtml5 className="icons top-[10%] left-[10%] absolute" />
