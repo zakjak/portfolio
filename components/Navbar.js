@@ -1,18 +1,32 @@
+'use client'
+// import Link from 'next/link'
+import React, { useEffect } from 'react'
+import { Link as LinkRef } from 'react-scroll'
 import Link from 'next/link'
-import React from 'react'
+
 
 const Navbar = () => {
+
+  // useEffect(() => {
+    
+  // }, [contactRef.current])
+
   return (
     <nav className='w-full sticky top-0 z-[999] bg-white h-12 shadow flex items-center'>
         <div className='w-[90%] mx-auto flex items-center justify-between'>
             <div className='text-2xl font-bold'>
                 <Link href='/' className='logo'>Zakaria</Link>
             </div>
-            <div className='flex gap-4 text-sm'>
-                <Link className='hover:underline' href='/'>Home</Link>
-                <Link className='hover:underline' href='#about'>About</Link>
-                <Link className='hover:underline' href='#projects'>Projects</Link>
-                <Link className='hover:underline' href='#contact'>Contact</Link>
+            <div className='flex gap-6 text-sm'>
+                <LinkRef to='about' smooth={true} duration={700} className='hover:underline' >
+                    About
+                </LinkRef>
+                <LinkRef to='projects' smooth={true} duration={700} className='hover:underline'>
+                  Projects
+                </LinkRef>
+                <LinkRef to='contact'  smooth={true} duration={700}  className='hover:underline'>
+                  Contact
+                </LinkRef>
             </div>
             <div></div>
         </div>

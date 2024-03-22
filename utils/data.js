@@ -6,7 +6,7 @@ export const projects = [
     {
         id: 1,
         title: 'Imagix',
-        desc: 'skjad sad askfddks f dsfdshfsdf  sdffsdhf',
+        desc: 'A dynamic web application, to create beautiful moments in our lives. Users can Follow other users, post, like and comment on images they created or other people created.',
         href: 'https://imagix996.netlify.app',
         pics: [
             '/assets/imagix/imagix-1.png',
@@ -19,14 +19,17 @@ export const projects = [
             '/assets/imagix/imagix-8.png',
             '/assets/imagix/imagix-9.png',
         ],
-        techs: [<SiTailwindcss/>, <FaReact /> ,<SiVite/>, 
-        <IoLogoFirebase />, <SiMongodb />, 
-        <FaNode />, <SiExpress />, <SiRedux />]
+        client: [
+            <SiTailwindcss/>, <FaReact /> ,<SiVite/>, 
+        <IoLogoFirebase />,  <SiRedux />
+        ],
+        api: [<SiMongodb />, 
+        <FaNode />, <SiExpress />,]
     },
     {
         id: 2,
         title: 'Blog Website',
-        desc: 'skjad sad askfddks f dsfdshfsdf  sdffsdhf',
+        desc: "News web application like never before. You can read your favourite news items from such as Sports, Politics, Entertainment, Business or Tech news.",
         href: 'https://blog96.netlify.app',
         pics: [
             '/assets/blog/blog-1.png',
@@ -38,14 +41,15 @@ export const projects = [
             '/assets/blog/blog-7.png',
             '/assets/blog/blog-8.png',
         ],
-        techs: [<SiTailwindcss/>, <FaReact /> ,<SiVite/>, 
-        <IoLogoFirebase />, <SiMongodb />, 
-        <FaNode />, <SiExpress />, <SiRedux />]
+        client: [<SiTailwindcss/>, <FaReact /> ,<SiVite/>, 
+        <IoLogoFirebase />, <SiRedux />],
+        api: [<SiMongodb />, 
+        <FaNode />, <SiExpress />],
     },
     {
         id: 3,
         title: 'Share me',
-        desc: 'skjad sad askfddks f dsfdshfsdf  sdffsdhf',
+        desc: 'A dynamic web application, to create beautiful moments and capture beautiful events and you can select from a variety of categories. Users can download, post, comment and save posts',
         href:'https://shareme-zakjak.netlify.app',
         pics: [
             '/assets/shareme/shareme-1.png',
@@ -54,7 +58,7 @@ export const projects = [
             '/assets/shareme/shareme-4.png',
             '/assets/shareme/shareme-5.png',
         ],
-        techs: [<SiTailwindcss/>, <FaReact />, 
-        <SiSanity />]
+        client: [<SiTailwindcss/>, <FaReact />],
+        api: [<SiSanity />]
     }
 ]

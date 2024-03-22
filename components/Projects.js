@@ -1,6 +1,7 @@
-import { projects } from '@/utils/data'
-import React from 'react'
+import { projects } from '../utils/data'
 import Card from './Card'
+import { FaChevronRight } from 'react-icons/fa'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
@@ -9,10 +10,13 @@ const Projects = () => {
       font-semibold text-slate-800 drop-shadow-xl'>
         My Works
       </h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 w-[90%] mx-auto'>
+      <div className='w-[94%] mx-auto'>
+      {/* <Link href='/projects' className='p-0 flex items-center text-sm cursor-pointer mb-1 text-gray-600 hover:text-zinc-900'><span className=' '>Show more</span><FaChevronRight /></Link> */}
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'>
         {projects.map(project => (
           <Card key={project.id} project={project} />
         ))}
+      </div>
       </div>
     </div>
   )
