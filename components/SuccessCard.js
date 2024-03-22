@@ -11,7 +11,7 @@ const SuccessCard = () => {
     useEffect(() => {
       setInterval(() => {
         Router.push('/')
-      }, 2000)
+      }, 3000)
     })
   return (
     <div className='w-full h-full bg-transparent flex justify-center'>
