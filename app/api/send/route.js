@@ -15,7 +15,7 @@ export async function POST(req) {
     })
 
     
-    return NextResponse.json({data})
+    return NextResponse.json({ data })
     
   }catch(err){
     return NextResponse.json(err)
