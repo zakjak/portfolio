@@ -1,5 +1,4 @@
 'use client'
-
 import { Card } from 'flowbite-react'
 import { useEffect } from 'react';
 import { FaCircleCheck } from "react-icons/fa6";
@@ -7,11 +6,11 @@ import { useRouter } from 'next/navigation'
 
 const page = () => {
 
-  const router = useRouter()
+  const Router = useRouter()
 
   useEffect(() => {
     setInterval(() => {
-      router.push('/')
+      Router.push('/')
     }, 2000)
   })
 
