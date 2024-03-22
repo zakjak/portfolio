@@ -34,7 +34,7 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' className='py-6 bg-zinc-800'>
+    <div id='contact' className='py-6 px-4 bg-zinc-800'>
         <h1 className='text-center mb-2 text-3xl 
             font-semibold text-slate-200 drop-shadow-xl'>
             Contact Me
