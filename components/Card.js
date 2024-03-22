@@ -18,7 +18,7 @@ const Card = ({ project }) => {
             <h2 className='font-semibold text-xl text-zinc-600 underline'>{project.title}</h2>
             <p className='text-sm text-gray-500 w-[90%] text-justify'>{project.desc}</p>
             <h1 className='font-semibold text-zinc-600 underline'>Tech Stack</h1>
-            <div className='grid grid-cols-2'>
+            <div className='mt-2 flex flex-col gap-2'>
                 <div className='flex flex-col gap-1'>
                     <h2 className='text-zinc-700'>Frontend</h2>
                     <div className='flex gap-2 text-gray-100 whitespace-nowrap'>
