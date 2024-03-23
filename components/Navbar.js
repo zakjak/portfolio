@@ -18,9 +18,9 @@ const Navbar = () => {
                 <Link href='/' className='logo'>Zakaria</Link>
             </div>
             <div className='flex gap-6 text-sm'>
-                <LinkRef to='about' smooth={true} duration={700} className='hover:underline cursor-pointer' >
+                <Link href='/about'  className='hover:underline cursor-pointer' >
                     About
-                </LinkRef>
+                </Link>
                 <LinkRef to='projects' smooth={true} duration={700} className='hover:underline cursor-pointer'>
                   Projects
                 </LinkRef>
