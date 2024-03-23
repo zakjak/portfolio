@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className='min-h-screen p-4 grid grid-cols-8 gap-2'>
       <AboutLeft />
-      <div className='col-span-6 grid grid-cols-6 gap-2'>
+      <div className='col-span-8 lg:col-span-6 grid md:grid-cols-6 gap-2'>
         <AboutMiddle />
         <RightSection />
       </div>
