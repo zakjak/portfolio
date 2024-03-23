@@ -13,7 +13,7 @@ const BackendTecknologies = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>Python</h3>
+                <h3 className='text-zinc-600 text-xs font-semibold'>Python & Pandas & Numpy</h3>
                 <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
                     <div className='w-[75%] h-full bg-green-600 rounded-full 
                     text-white text-sm flex items-center justify-center text-[.8em]'>75%</div>
@@ -37,13 +37,6 @@ const BackendTecknologies = () => {
                 <h3 className='text-zinc-600 text-xs font-semibold'>Firebase</h3>
                 <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
                     <div className='w-[80%] h-full bg-green-600 rounded-full text-white flex items-center justify-center text-[.8em]'>80%</div>
-                </div>
-            </div>
-            <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>Pandas & Numpy</h3>
-                <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
-                    <div className='w-[75%] h-full bg-green-600 rounded-full 
-                    text-white text-sm flex items-center justify-center text-[.8em]'>75%</div>
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ const AboutLeft = () => {
   return (
     <div className='col-span-2 bg-white shadow-md rounded-lg overflow-hidden'>
         <div className='relative'>
-            <Image className='w-full h-[15em] lg:h-[28em] object-cover object-top' src='/cv.jpg' width={240} height={240} />
+            <Image alt='Yakubu Zakaria profile image' className='w-full h-[15em] lg:h-[28em] object-cover object-top' src='/cv.jpg' width={240} height={240} />
             <div className='absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full h-12 flex items-center p-4'>
                 <h2 className='lg:text-2xl text-white md:text-xl text-lg'>Yakubu Zakaria</h2>
             </div>
