@@ -21,13 +21,6 @@ const AboutSmall = () => {
       }, [location])
 
 
-    const router = useRouter()
-
-    const handleHome = (pathname) => {
-        router.push(pathname)
-        setPathname(pathname)
-    }
-
   return (
     <div className='lg:hidden flex flex-col gap-2 col-span-8'>
         <div className='shadow-md bg-white rounded-lg  overflow-hidden'>
