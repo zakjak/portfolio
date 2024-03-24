@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightCareer = () => {
   return (
-    <div className='py-4 px-6 shadow-md bg-white rounded-lg'> 
+    <div className='py-4 px-6 shadow-md bg-white rounded-lg w-full'> 
           <h1 className='font-bold text-2xl text-zinc-700'>
             Career Goal
           </h1>
