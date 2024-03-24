@@ -1,11 +1,18 @@
+'use client'
+
 import { projects } from '../utils/data'
 import Card from './Card'
-import { FaChevronRight } from 'react-icons/fa'
-import Link from 'next/link'
+import {motion } from 'framer-motion'
 
 const Projects = () => {
   return (
-    <div id='projects' className='py-6 z-50 bg-zinc-200'>
+    <motion.div 
+      initial={{ opacity: 1 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      // transition={{ duration: 0.1, ease: "easeIn" }}
+      id='projects' 
+      className='py-6 z-50 bg-zinc-200'>
       <h1 className='text-center mb-4 text-3xl 
       font-semibold text-slate-800 drop-shadow-xl'>
         My Works
@@ -18,7 +25,7 @@ const Projects = () => {
         ))}
       </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

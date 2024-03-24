@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import { FaCss3, FaHtml5, FaPython, FaReact } from 'react-icons/fa'
 import { TbBrandJavascript } from "react-icons/tb";
@@ -5,12 +6,18 @@ import { IoLogoFigma } from "react-icons/io5";
 import { DiPhotoshop } from "react-icons/di";
 import { SiMongodb, SiTailwindcss, SiNextdotjs, SiPandas} from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
-
+import {motion } from 'framer-motion'
 
 const Introduction = () => {
+
   return (
     <section id="about" className="md:grid overflow-hidden items-center flex-col md:grid-cols-2 bg-black md:h-[30rem] text-white">
-        <div className="h-full w-full  flex items-center justify-center">
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.01, ease: "easeIn", delayChildren: 0.5 }}
+          className="h-full w-full  flex items-center justify-center">
           <div className="relative top-10">
             <div className="absolute w-full h-[70%] bottom-0 rounded-t-full bg-gradient-to-t from-zinc-900 to-black" />
               <Image alt="Yakubu Zakaria profile picture" className="top z-50 relative w-full h-full" src='/1.png' width={340} height={3000} />
@@ -28,11 +35,16 @@ const Introduction = () => {
             <IoLogoFirebase className="icons top-[55%] left-[60%]" />
             <SiTailwindcss className="icons top-[60%] left-[80%]" />
             <SiPandas className="icons top-[20%] left-[60%]" />
-            
-        </div>
-        <div className="py-28 ">
+        </motion.div>
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate= {{ opacity: 1, scale: 1 }}
+        transition={{duration: 0.01}}
+
+        
+        className="py-28 ">
           <h1 className="text-3xl intro text-center"><span className="to-zinc-200 bg-clip-text text-transparent bg-gradient-to-r from-zinc-100">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
-          <p className="mt-4 text-justify w-[70%] mx-auto">
+          <p className="mt-4 text-justify md:w-[70%] w-[80%] mx-auto">
             I am thrilled to welcome you to my portfolio, 
             where the worlds of petroleum engineering and 
             full stack development intersect. I invite you 
@@ -40,7 +52,7 @@ const Introduction = () => {
             boundaries, blending the precision of reservoir 
             engineering with the dynamic realm of software development.
           </p>
-        </div>
+        </motion.div>
       </section>
   )
 }
