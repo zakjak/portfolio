@@ -15,7 +15,7 @@ const Navbar = () => {
       setPathname('')
       setPathname('/')
     }
-  }, [location])
+  }, [])
   
   const router = useRouter()
 
