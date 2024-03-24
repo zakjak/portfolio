@@ -5,27 +5,31 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import { FaEnvelope, FaLinkedin } from 'react-icons/fa'
 import { FaArrowLeftLong } from 'react-icons/fa6'
 import { useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
 
 const AboutSmall = () => {
+    const [pathname, setPathname] = useState('')
 
-    const pathname = location.pathname
+    useEffect(() => {
+        if(location.pathname === '/about'){
+          setPathname('')
+          setPathname('/about')
+        }else{
+          setPathname('')
+          setPathname('/')
+        }
+      }, [location])
+
 
     const router = useRouter()
 
-    const handleHome = () => {
-        router.push('/')
-        location.reload()
+    const handleHome = (pathname) => {
+        router.push(pathname)
+        setPathname(pathname)
     }
 
   return (
     <div className='lg:hidden flex flex-col gap-2 col-span-8'>
-        {
-            pathname === '/about' && (
-            <div onClick={() =>handleHome()} className='bg-zinc-400 rounded-full h-12 w-12 flex items-center justify-center cursor-pointer hover:bg-zinc-600 text-gray-200'>
-                <FaArrowLeftLong />
-            </div>
-            )
-        }
         <div className='shadow-md bg-white rounded-lg  overflow-hidden'>
             <div className='w-full h-[40em] min-h-[40rem] overflow-hidden'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-full object-cover object-top' src='/cv.jpg' width={240} height={240} />

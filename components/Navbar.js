@@ -2,6 +2,7 @@
 import { Link as LinkRef } from 'react-scroll'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import { Button } from 'flowbite-react'
 
 const Navbar = () => {
   const [pathname, setPathname] = useState('')
@@ -35,8 +36,13 @@ const Navbar = () => {
   return (
     <nav className={`w-full sticky top-0 z-[999] bg-white ${pathname === '/about' ? 'h-16' : 'h-12'} shadow flex items-center`}>
         <div className={`w-[90%] mx-auto ${pathname === '/about' ? '' : 'flex items-center justify-between'}`}>
-            <div className={`${pathname === '/about' ? 'text-6xl text-center' : 'text-2xl font-bold'}`}>
+            <div className={`${pathname === '/about' ? 'text-6xl flex justify-between items-center' : 'text-2xl font-bold'}`}>
                 <div onClick={() => handleHome('/')} className='logo cursor-pointer'>Zakaria</div>
+                {
+                  pathname === '/about' && (
+                    <Button color='dark' onClick={() => handleHome('/')}>Home</Button>
+                  )
+                }
             </div>
             {
               pathname !== '/about' && (
