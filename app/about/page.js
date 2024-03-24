@@ -7,7 +7,7 @@ import React from 'react'
 const page = () => {
 
   return (
-    <div className='min-h-screen p-4 grid grid-cols-8 gap-2 w-full'>
+    <div className='min-h-screen w-[95%] grid grid-cols-8 gap-2 mx-auto py-4'>
       <AboutLeft />
       <div className='col-span-8 w-full lg:col-span-6 grid md:grid-cols-6 gap-2'>
         <AboutSmall />
