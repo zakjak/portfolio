@@ -29,7 +29,7 @@ export const projects = [
     {
         id: 2,
         title: 'Blog Website',
-        desc: "News web application like never before. You can read your favourite news items from such as Sports, Politics, Entertainment, Business or Tech news.",
+        desc: "News web application like never before. You can read your favourite news items such as Sports, Politics, Entertainment, Business or Tech news.",
         href: 'https://blog96.netlify.app',
         pics: [
             '/assets/blog/blog-1.png',
