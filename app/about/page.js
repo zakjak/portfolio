@@ -5,6 +5,7 @@ import RightSection from '@/components/RightSection/RightSection'
 import React from 'react'
 
 const page = () => {
+
   return (
     <div className='min-h-screen p-4 grid grid-cols-8 gap-2'>
       <AboutLeft />

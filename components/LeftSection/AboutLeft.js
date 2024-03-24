@@ -15,23 +15,23 @@ const AboutLeft = () => {
                 <h2 className='lg:text-2xl text-white md:text-xl text-lg'>Yakubu Zakaria</h2>
             </div>
         </div>
-        <div className='p-6'>
+        <div className='px-6 py-3'>
             <div className='flex flex-col gap-2 text-zinc-700'>
                 <div className='flex items-center gap-1'>
-                    <FaEnvelope className='text-lg' />
-                    <span className='text-sm'>yzakaria@ttu.edu</span>
+                    <FaEnvelope className='text-lg max-w-[1em] min-w-[1em' />
+                    <span className='text-sm'>yakubuzakaria833@gmail.com</span>
                 </div>
                 <div className='flex items-center gap-1'>
-                    <FaLinkedin className='text-lg' />
-                    <Link href='#' className='text-sm'>Yakubu Zakaria</Link>
+                    <FaLinkedin className='text-xl' />
+                    <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' target='_blank' className='text-sm font-semibold underline text-blue-600'>Yakubu Zakaria</Link>
                 </div>
                 <div className='flex items-center gap-1'>
                     <BsFillTelephoneFill className='text-lg' />
                     <span className='text-sm'>+1-806-317-3617</span>
                 </div>
             </div>
-            <div className='mt-2 flex flex-col gap-1'>
-                <h1 className='font-bold text-[1.1em] text-zinc-700'>Computer and Language Proficiency</h1>
+            <div className='mt-2 flex flex-col'>
+                <h1 className='font-bold text-zinc-700'>Computer and Language Proficiency</h1>
                 <div className='flex flex-col gap-4 mt-1'>
                     <FrontendTech />
                     <BackendTecknologies />
