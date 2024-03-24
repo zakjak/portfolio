@@ -13,10 +13,9 @@ const Introduction = () => {
   return (
     <section id="about" className="md:grid overflow-hidden items-center flex-col md:grid-cols-2 bg-black md:h-[30rem] text-white">
         <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.01, ease: "easeIn", delayChildren: 0.5 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
           className="h-full w-full  flex items-center justify-center">
           <div className="relative top-10">
             <div className="absolute w-full h-[70%] bottom-0 rounded-t-full bg-gradient-to-t from-zinc-900 to-black" />
@@ -37,12 +36,11 @@ const Introduction = () => {
             <SiPandas className="icons top-[20%] left-[60%]" />
         </motion.div>
         <motion.div 
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate= {{ opacity: 1, scale: 1 }}
-        transition={{duration: 0.01}}
-
-        
-        className="py-28 ">
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="py-28 "
+        >
           <h1 className="text-3xl intro text-center"><span className="to-zinc-200 bg-clip-text text-transparent bg-gradient-to-r from-zinc-100">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
           <p className="mt-4 text-justify md:w-[70%] w-[80%] mx-auto">
             I am thrilled to welcome you to my portfolio, 

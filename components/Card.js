@@ -3,10 +3,16 @@ import Image from 'next/image'
 import React from 'react'
 import { Carousel } from 'flowbite-react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const Card = ({ project }) => {
   return (
-    <div className='w-full bg-white shadow-xl flex flex-col gap-2 rounded-t-2xl overflow-hidden'>
+    <motion.div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: .5 }}
+        className='w-full bg-white shadow-xl flex flex-col gap-2 rounded-t-2xl overflow-hidden'>
         <Link href={project.href} target='_blank' className='w-full h-[15rem]'>
             <Carousel leftControl=' ' indicators={false} rightControl=' '>
                 {project.pics.map((pic, i) => (
@@ -38,7 +44,7 @@ const Card = ({ project }) => {
                 
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 
