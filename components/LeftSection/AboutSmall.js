@@ -18,7 +18,7 @@ const AboutSmall = () => {
           setPathname('')
           setPathname('/')
         }
-      }, [location])
+      }, [])
 
 
   return (
