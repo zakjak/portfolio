@@ -22,7 +22,7 @@ const AboutSmall = () => {
 
 
   return (
-    <div className='lg:hidden  w-full bg-card card text-white rounded-lg backdrop-blur-[20px]'>
+    <div className='lg:hidden  w-full bg-card card text-black rounded-lg backdrop-blur-[20px]'>
         <div className='shadow-md rounded-lg  overflow-hidden'>
             <div className='w-full max-h-[30rem]  overflow-hidden'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-full object-cover object-top' src='/cv.jpg' width={240} height={240} />
