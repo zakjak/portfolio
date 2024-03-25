@@ -7,15 +7,14 @@ import React from 'react'
 const page = () => {
 
   return (
-    <div className='min-h-screen bg-black '>
-      <div className='grid w-[80%] grid-cols-8 gap-2 py-4 pt-[5em] mx-auto'>
+    <div className='min-h-screen bg-black w-full pb-10'>
+      <div className='grid w-[90%] md:w-[80%] gap-2 pt-[5em] mx-auto grid-cols-8'>
         <AboutLeft />
-        <div className='col-span-8 w-full lg:col-span-6 grid md:grid-cols-6 gap-2'>
+        <div className='w-full col-span-8 lg:col-span-4 flex flex-col gap-2'>
           <AboutSmall />
           <AboutMiddle />
-          <RightSection />
         </div>
-
+        <RightSection />
       </div>
     </div>
   )
