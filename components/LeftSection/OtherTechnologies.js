@@ -23,10 +23,10 @@ const OtherTechnologies = () => {
         <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>Adobe Photoshop & Figma</h3>
-                <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressAdobe}%` }}
-                        className='w-[85%] h-full bg-green-600 rounded-full 
+                        className='w-[85%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                         text-white text-xs flex items-center justify-center text-[.8em]'>
                             {`${progressAdobe}%`}
                         </div>
@@ -34,10 +34,10 @@ const OtherTechnologies = () => {
             </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>Eclipse & S3-Graph</h3>
-                <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressEclipse}%` }}
-                        className='w-[75%] h-full bg-green-600 rounded-full 
+                        className='w-[75%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                         text-white text-xs flex items-center justify-center'>
                             {`${progressEclipse}%`}
                         </div>

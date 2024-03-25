@@ -38,10 +38,10 @@ const BackendTecknologies = () => {
         <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>Node.JS (Express.JS)</h3>
-                <div className='h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressNode}%` }}
-                        className='w-[85%] h-full bg-green-600 rounded-full 
+                        className='w-[85%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                         text-white text-sm flex items-center justify-center text-[.8em]'>
                         {`${progressNode}`}
                     </div>
@@ -49,28 +49,28 @@ const BackendTecknologies = () => {
             </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>Python & Pandas & Numpy</h3>
-                <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div
                         style={{ width: `${progressPython}%` }} 
-                        className='h-full bg-green-600 rounded-full 
+                        className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                     text-white text-sm flex items-center justify-center text-[.8em]'>{`${progressPython}%`}</div>
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>MongoDB</h3>
-                <div className='w-full h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressMongo}%` }}
-                        className='h-full bg-green-600 rounded-full 
+                        className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                     text-white flex items-center justify-center text-[.8em]'>{`${progressMongo}%`}</div>
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>SQL(PostgresSQL)</h3>
-                <div className='h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressSql}%` }}
-                        className='h-full bg-green-600 rounded-full 
+                        className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                         text-white flex items-center justify-center text-[.8em]'>
                             {`${progressSql}%`}
                         </div>
@@ -78,10 +78,10 @@ const BackendTecknologies = () => {
             </div>
             <div className='flex flex-col gap-1'>
                 <h3 className='text-zinc-600 text-xs font-semibold'>Firebase</h3>
-                <div className='h-3 bg-gray-300 overflow-hidden rounded-full'>
+                <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressFirebase}%` }}
-                        className='w-[80%] h-full bg-green-600 rounded-full 
+                        className='w-[80%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
                         text-white flex items-center justify-center text-[.8em]'>
                         {`${progressFirebase}%`}
                     </div>
