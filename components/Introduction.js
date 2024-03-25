@@ -41,7 +41,8 @@ const Introduction = () => {
           transition={{ duration: 0.5 }}
           className="py-28 "
         >
-          <h1 className="text-3xl intro text-center"><span className="to-zinc-200 bg-clip-text text-transparent bg-gradient-to-r from-zinc-100">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
+          <h1 className="text-3xl intro text-center">
+            <span className="text-white">My name is </span><span className="font-bold text-4xl">Yakubu Zakaria</span></h1>
           <p className="mt-4 text-justify md:w-[70%] w-[80%] mx-auto">
             I am thrilled to welcome you to my portfolio, 
             where the worlds of petroleum engineering and 
