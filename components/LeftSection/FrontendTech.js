@@ -37,7 +37,7 @@ const FrontendTech = () => {
                     <div
                         style={{ width: `${progressReact}%` }}
                         className={`h-full progress bg-bar bar backdrop-blur-[20px] rounded-full
-                        text-white text-xs flex items-center justify-center text-[.8em]`}>
+                        text-white text-xs flex items-center justify-center`}>
                         {`${progressReact}%`} 
                     </div>
                 </div>

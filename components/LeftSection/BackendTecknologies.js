@@ -42,8 +42,8 @@ const BackendTecknologies = () => {
                     <div 
                         style={{ width: `${progressNode}%` }}
                         className='w-[85%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
-                        text-white text-sm flex items-center justify-center text-[.8em]'>
-                        {`${progressNode}`}
+                        text-white text-xs flex items-center justify-center'>
+                        {`${progressNode}%`}
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ const BackendTecknologies = () => {
                     <div
                         style={{ width: `${progressPython}%` }} 
                         className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
-                    text-white text-sm flex items-center justify-center text-[.8em]'>{`${progressPython}%`}</div>
+                    text-white text-xs flex items-center justify-center'>{`${progressPython}%`}</div>
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
@@ -62,7 +62,7 @@ const BackendTecknologies = () => {
                     <div 
                         style={{ width: `${progressMongo}%` }}
                         className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
-                    text-white flex items-center justify-center text-[.8em]'>{`${progressMongo}%`}</div>
+                    text-white flex items-center justify-center text-xs'>{`${progressMongo}%`}</div>
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
@@ -71,7 +71,7 @@ const BackendTecknologies = () => {
                     <div 
                         style={{ width: `${progressSql}%` }}
                         className='h-full bg-bar bar backdrop-blur-[20px] rounded-full 
-                        text-white flex items-center justify-center text-[.8em]'>
+                        text-white flex items-center justify-center text-xs'>
                             {`${progressSql}%`}
                         </div>
                 </div>
@@ -82,7 +82,7 @@ const BackendTecknologies = () => {
                     <div 
                         style={{ width: `${progressFirebase}%` }}
                         className='w-[80%] h-full bg-bar bar backdrop-blur-[20px] rounded-full 
-                        text-white flex items-center justify-center text-[.8em]'>
+                        text-white flex items-center justify-center text-xs'>
                         {`${progressFirebase}%`}
                     </div>
                 </div>
