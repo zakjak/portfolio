@@ -24,14 +24,16 @@ const AboutSmall = () => {
   return (
     <div className='lg:hidden  w-full bg-card card text-white rounded-lg backdrop-blur-[20px]'>
         <div className='shadow-md rounded-lg  overflow-hidden'>
-            <div className='w-full h-[40em] min-h-[40rem] overflow-hidden'>
+            <div className='w-full max-h-[30rem]  overflow-hidden'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-full object-cover object-top' src='/cv.jpg' width={240} height={240} />
             </div>
-            <div className='p-6'>
+            <div className='py-6 px-4'>
                 <h1 className='font-semibold text-lg'>Yakubu Zakaria</h1>
                 <div>
-                <div className='flex items-center gap-2'>
-                        <FaEnvelope className='text-2xl' />
+                <div className='flex items-center gap-1'>
+                        <div className='w-[2rem] h-[2rem] flex items-center'>
+                          <FaEnvelope className='text-2xl' />
+                        </div>
                         <span className='text-xl'>yakubuzakaria833@gmail.com</span>
                     </div>
                     <div className='flex items-center gap-2'>
