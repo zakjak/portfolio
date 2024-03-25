@@ -34,9 +34,9 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' className='py-6 px-4 bg-zinc-800'>
+    <div id='contact' className='py-6 px-4 bg-black'>
         <h1 className='text-center mb-2 text-3xl 
-            font-semibold text-slate-200 drop-shadow-xl'>
+            font-semibold text-white drop-shadow-xl'>
             Contact Me
         </h1>
         <div className='w-full flex items-center justify-center'>
@@ -45,7 +45,7 @@ const Contact = () => {
               <TextInput id='name' onChange={handleChange} type='text' className='' placeholder='Enter fullname' />
               <TextInput id='email' onChange={handleChange} type='email' placeholder='Enter Email' />
               <Textarea id='message' onChange={handleChange} placeholder='Enter message' className='min-h-24 max-h-24' />
-              <Button type='submit'>Submit</Button>
+              <Button type='submit' color='dark'>Submit</Button>
             </form>
         </div>
     </div>

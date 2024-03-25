@@ -8,7 +8,7 @@ import OtherTechnologies from './OtherTechnologies'
 
 const AboutLeft = () => {
   return (
-    <div className='col-span-2 hidden lg:block bg-white shadow-md rounded-lg overflow-hidden'>
+    <div className='col-span-2 hidden lg:block shadow-md overflow-hidden bg-card card text-white rounded-lg backdrop-blur-[20px]'>
         <div className='relative'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-[15em] lg:h-[28em] object-cover object-top' src='/cv.jpg' width={240} height={240} />
             <div className='absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full h-12 flex items-center p-4'>
@@ -23,7 +23,7 @@ const AboutLeft = () => {
                 </div>
                 <div className='flex items-center gap-1'>
                     <FaLinkedin className='text-xl' />
-                    <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' target='_blank' className='text-sm font-semibold underline text-blue-600'>Yakubu Zakaria</Link>
+                    <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' target='_blank' className='text-sm font-semibold underline'>Yakubu Zakaria</Link>
                 </div>
                 <div className='flex items-center gap-1'>
                     <BsFillTelephoneFill className='text-lg' />
@@ -31,7 +31,7 @@ const AboutLeft = () => {
                 </div>
             </div>
             <div className='mt-2 flex flex-col'>
-                <h1 className='font-bold text-zinc-700'>Computer and Language Proficiency</h1>
+                <h1 className='font-bold text-lg text-white'>Computer and Language Proficiency</h1>
                 <div className='flex flex-col gap-4 mt-1'>
                     <FrontendTech />
                     <BackendTecknologies />

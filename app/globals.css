@@ -6,11 +6,11 @@
 @tailwind utilities;
 
 *{
-  @apply p-0 m-0 box-border;
+  @apply p-0 m-0;
 }
 
 body{
-  @apply min-h-screen scroll-smooth bg-gray-100 box-border;
+  @apply min-h-screen w-full scroll-smooth bg-gray-100 box-border;
 }
 
 .logo{
@@ -25,4 +25,9 @@ body{
   font-family: "Rouge Script", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.card{
+  -webkit-backdrop-filter: blur( 20px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

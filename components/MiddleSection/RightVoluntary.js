@@ -2,12 +2,12 @@ import React from 'react'
 
 const RightVoluntary = () => {
   return (
-    <div className='py-4 px-6 shadow-md bg-white rounded-lg'>
+    <div className='py-4 px-6 shadow-md rounded-lg bg-card card text-white backdrop-blur-[20px]'>
       <h1 className='font-bold text-2xl text-zinc-700'>
         Voluntary Service
       </h1>
       <div className='w-[90%]'>
-        <ul className=' flex flex-col gap-2 text-gray-600  text-justify text-sm md:text-base'>
+        <ul className=' flex flex-col gap-2  text-justify text-sm md:text-base'>
           <li><b>Committee Member</b>: AADE (American Association of Drilling Engineers) – April 2019 – Date.</li>
           <li><b>Media Coordinator</b>: MMG Foundation, Accra, Ghana – June 2019 – Date.</li>
           <li><b>First Generation Peer Mentor</b>: (Texas Tech University) – 2023 – Date.</li>

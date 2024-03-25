@@ -12,7 +12,7 @@ const Card = ({ project }) => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: .5 }}
-        className='w-full bg-white shadow-xl flex flex-col gap-2 rounded-t-2xl overflow-hidden'>
+        className='w-full bg-card card text-white rounded-lg backdrop-blur-[20px] shadow-xl flex flex-col gap-2 rounded-t-2xl overflow-hidden'>
         <Link href={project.href} target='_blank' className='w-full h-[15rem]'>
             <Carousel leftControl=' ' indicators={false} rightControl=' '>
                 {project.pics.map((pic, i) => (
@@ -21,23 +21,23 @@ const Card = ({ project }) => {
             </Carousel>
         </Link>
         <div className='px-6 py-4 flex flex-col gap-2'>
-            <h2 className='font-semibold text-xl text-zinc-600 underline'>{project.title}</h2>
+            <h2 className='font-semibold text-xl text-black underline'>{project.title}</h2>
             <p className='text-sm text-gray-500 w-[90%] text-justify'>{project.desc}</p>
-            <h1 className='font-semibold text-zinc-600 underline'>Tech Stack</h1>
-            <div className='mt-2 flex flex-col gap-2'>
+            <h1 className='font-semibold text-black underline'>Tech Stack</h1>
+            <div className='flex flex-col gap-2'>
                 <div className='flex flex-col gap-1'>
-                    <h2 className='text-zinc-700'>Frontend</h2>
+                    <h2 className='text-black'>Frontend</h2>
                     <div className='flex gap-2 text-gray-100 whitespace-nowrap'>
                         {project.client.map((tech, i) => (
-                            <span key={i} className='text-md font-bold p-1 rounded-md bg-zinc-900'>{tech}</span>
+                            <span key={i} className='text-md bg-black font-bold p-1 rounded-md bg-zinc-900'>{tech}</span>
                         ))}
                     </div>
                 </div>
                 <div className=''>
-                    <h2 className='text-zinc-700'>Backend</h2>
+                    <h2 className='text-black'>Backend</h2>
                     <div className='flex gap-2 text-gray-100 whitespace-nowrap'>
                         {project.api.map((tech, i) => (
-                            <span key={i} className='text-md font-bold p-1 rounded-md bg-zinc-900'>{tech}</span>
+                            <span key={i} className='text-md bg-black font-bold p-1 rounded-md bg-zinc-900'>{tech}</span>
                         ))}
                     </div>
                 </div>

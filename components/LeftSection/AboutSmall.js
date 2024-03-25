@@ -22,8 +22,8 @@ const AboutSmall = () => {
 
 
   return (
-    <div className='lg:hidden flex flex-col gap-2 col-span-8 w-full'>
-        <div className='shadow-md bg-white rounded-lg  overflow-hidden'>
+    <div className='lg:hidden flex flex-col gap-2 col-span-8 w-full bg-card card text-white rounded-lg backdrop-blur-[20px]'>
+        <div className='shadow-md rounded-lg  overflow-hidden'>
             <div className='w-full h-[40em] min-h-[40rem] overflow-hidden'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-full object-cover object-top' src='/cv.jpg' width={240} height={240} />
             </div>
@@ -36,7 +36,7 @@ const AboutSmall = () => {
                     </div>
                     <div className='flex items-center gap-2'>
                         <FaLinkedin className='text-2xl' />
-                        <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' className='text-xl underline text-blue-600'>Yakubu Zakaria</Link>
+                        <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' className='text-xl underline'>Yakubu Zakaria</Link>
                     </div>
                     <div className='flex items-center gap-2'>
                         <BsFillTelephoneFill className='text-2xl' />

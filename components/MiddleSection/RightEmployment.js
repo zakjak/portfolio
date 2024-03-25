@@ -2,11 +2,11 @@ import React from 'react'
 
 const RightEmployment = () => {
   return (
-    <div className='py-4 px-6 shadow-md bg-white rounded-lg'> 
+    <div className='py-4 px-6 shadow-md bg-card card text-white rounded-lg backdrop-blur-[20px]'> 
         <h1 className='font-bold text-2xl text-zinc-700'>
           Employment
         </h1>
-        <ul className='w-[90%] flex flex-col gap-2 text-gray-600 text-justify text-sm md:text-base'>
+        <ul className='w-[90%] flex flex-col gap-2 text-justify text-sm md:text-base'>
             <li>1. <b>Peer Mentor: </b>Texas Tech First Generation Transition and Mentoring Program, 
             Texas, USA – August 2023 – Date.</li>
             <div>

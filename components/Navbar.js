@@ -34,9 +34,10 @@ const Navbar = () => {
   
 
   return (
-    <nav className={`sticky top-0 z-[999] bg-white ${pathname === '/about' ? 'h-16' : 'h-12'} shadow flex items-center`}>
+    <nav className='fixed z-[999] h-14 w-full mt-4'>
+      <div className='backdrop-blur-[15px] bg-navbar w-[80%] mx-auto rounded-full h-full flex items-center justify-center'>
         <div className={`w-[90%] mx-auto ${pathname === '/about' ? '' : 'flex items-center justify-between'}`}>
-            <div className={`${pathname === '/about' ? 'text-6xl flex justify-between items-center' : 'text-2xl font-bold'}`}>
+            <div className={`${pathname === '/about' ? 'flex text-4xl justify-between items-center' : 'text-2xl font-bold'}`}>
                 <div onClick={() => handleHome('/')} className='logo cursor-pointer'>Zakaria</div>
                 {
                   pathname === '/about' && (
@@ -60,8 +61,8 @@ const Navbar = () => {
 
               )
             }
-            <div></div>
         </div>
+      </div>
     </nav>
   )
 }
