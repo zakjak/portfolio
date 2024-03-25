@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <nav className='fixed z-[999] h-14 w-full mt-4'>
-      <div className='backdrop-blur-[15px] bg-navbar w-[80%] mx-auto rounded-full h-full flex items-center justify-center'>
+      <div className='backdrop-blur-[15px] bg-navbar w-[95%] md:w-[80%] mx-auto rounded-full h-full flex items-center justify-center'>
         <div className={`w-[90%] mx-auto ${pathname === '/about' ? '' : 'flex items-center justify-between'}`}>
             <div className={`${pathname === '/about' ? 'flex text-4xl justify-between items-center' : 'text-2xl font-bold'}`}>
                 <div onClick={() => handleHome('/')} className='logo cursor-pointer'>Zakaria</div>
