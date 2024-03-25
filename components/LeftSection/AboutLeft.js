@@ -12,13 +12,15 @@ const AboutLeft = () => {
         <div className='relative'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-[15em] lg:h-[28em] object-cover object-top' src='/cv.jpg' width={240} height={240} />
             <div className='absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full h-12 flex items-center p-4'>
-                <h2 className='lg:text-2xl text-white md:text-xl text-lg'>Yakubu Zakaria</h2>
+                <h2 className='lg:text-xl text-white md:text-xl text-lg'>Yakubu Zakaria</h2>
             </div>
         </div>
-        <div className='px-6 py-3'>
-            <div className='flex flex-col gap-2 text-zinc-700'>
+        <div className='px-6  py-3'>
+            <div className='flex flex-col gap-2 text-black'>
                 <div className='flex items-center gap-1'>
-                    <FaEnvelope className='text-lg max-w-[1em] min-w-[1em' />
+                    <div className='w-[1rem] h-[1rem] flex items-center'>
+                        <FaEnvelope className='text-lg' />
+                    </div>
                     <span className='text-sm'>yakubuzakaria833@gmail.com</span>
                 </div>
                 <div className='flex items-center gap-1'>
@@ -31,7 +33,7 @@ const AboutLeft = () => {
                 </div>
             </div>
             <div className='mt-2 flex flex-col'>
-                <h1 className='font-bold text-lg text-white'>Computer and Language Proficiency</h1>
+                <h1 className='font-bold text-lg text-black'>Computer and Language Proficiency</h1>
                 <div className='flex flex-col gap-4 mt-1'>
                     <FrontendTech />
                     <BackendTecknologies />

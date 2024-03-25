@@ -16,7 +16,7 @@ module.exports = {
     },
     colors: {
       navbar: 'rgba( 255, 255, 255, 0.60)',
-      card: 'rgba( 255, 255, 255, 0.35 )',
+      card: ' rgba( 255, 255, 255, 0.75 )',
       bar: 'rgba( 0, 255, 77, 0.4)',
     },
   },

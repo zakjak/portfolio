@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightEmployment = () => {
   return (
-    <div className='py-4 px-6 shadow-md bg-card card text-white rounded-lg backdrop-blur-[20px]'> 
+    <div className='py-4 px-6 shadow-md bg-card card text-black rounded-lg backdrop-blur-[20px]'> 
         <h1 className='font-bold text-2xl text-zinc-700'>
           Employment
         </h1>

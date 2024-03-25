@@ -33,11 +33,11 @@ const BackendTecknologies = () => {
     }, [])
 
   return (
-    <div className='flex flex-col gap-2'>
-        <h2 className='text-zinc-700 font-bold text-[.9em]'>BackEnd Technologies:</h2>
+    <div className='flex flex-col gap-2 text-black'>
+        <h2 className='font-bold text-[.9em]'>BackEnd Technologies:</h2>
         <div className='flex flex-col gap-2'>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>Node.JS (Express.JS)</h3>
+                <h3 className='text-xs font-semibold'>Node.JS (Express.JS)</h3>
                 <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressNode}%` }}
@@ -48,7 +48,7 @@ const BackendTecknologies = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>Python & Pandas & Numpy</h3>
+                <h3 className='text-xs font-semibold'>Python & Pandas & Numpy</h3>
                 <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div
                         style={{ width: `${progressPython}%` }} 
@@ -57,7 +57,7 @@ const BackendTecknologies = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>MongoDB</h3>
+                <h3 className='text-xs font-semibold'>MongoDB</h3>
                 <div className='w-full h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressMongo}%` }}
@@ -66,7 +66,7 @@ const BackendTecknologies = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>SQL(PostgresSQL)</h3>
+                <h3 className='text-xs font-semibold'>SQL(PostgresSQL)</h3>
                 <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressSql}%` }}
@@ -77,7 +77,7 @@ const BackendTecknologies = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-1'>
-                <h3 className='text-zinc-600 text-xs font-semibold'>Firebase</h3>
+                <h3 className='text-xs font-semibold'>Firebase</h3>
                 <div className='h-3 bg-gray-700 overflow-hidden rounded-full'>
                     <div 
                         style={{ width: `${progressFirebase}%` }}
