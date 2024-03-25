@@ -14,7 +14,7 @@ const Projects = () => {
       id='projects' 
       className='py-6 z-50 bg-card card text-white rounded-lg backdrop-blur-[20px]'>
       <h1 className='text-center mb-4 text-3xl 
-      font-semibold text-slate-800 drop-shadow-xl'>
+      font-semibold text-gray-800 drop-shadow-xl'>
         My Works
       </h1>
       <div className='w-[94%] mx-auto'>
