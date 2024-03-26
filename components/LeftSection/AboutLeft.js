@@ -25,7 +25,7 @@ const AboutLeft = () => {
                 </div>
                 <div className='flex items-center gap-1'>
                     <FaLinkedin className='text-xl' />
-                    <Link href='https://www.linkedin.com/in/yakubu-zakaria-90a7b6224' target='_blank' className='text-sm font-semibold underline'>Yakubu Zakaria</Link>
+                    <Link href='www.linkedin.com/in/yakubu-zakaria-90a7b6224' target='_blank' className='text-sm font-semibold underline'>Yakubu Zakaria</Link>
                 </div>
                 <div className='flex items-center gap-1'>
                     <BsFillTelephoneFill className='text-lg' />
