@@ -6,7 +6,7 @@ export const projects = [
     {
         id: 1,
         title: 'Imagix',
-        desc: 'A dynamic web application, to create beautiful moments in our lives. Users can Follow other users, post, like and comment on images they created or other people created.',
+        desc: 'A dynamic web application which creates beautiful moments in our lives. With options to follow and unfollow other users, this application allows users to seamlessly create contents and images in a virtual space that allows for countless and endless possibilities and interactions.',
         href: 'https://imagix996.netlify.app',
         pics: [
             '/assets/imagix/imagix-1.png',
@@ -29,7 +29,7 @@ export const projects = [
     {
         id: 2,
         title: 'Blog Website',
-        desc: "News web application like never before. You can read your favourite news items such as Sports, Politics, Entertainment, Business or Tech news.",
+        desc: "News web application like never before. With the click of a button, read all your favourite Sports, Political, Entertainment, Business, Tech, and other news items, all, on a single platform.",
         href: 'https://blog96.netlify.app',
         pics: [
             '/assets/blog/blog-1.png',
@@ -49,7 +49,7 @@ export const projects = [
     {
         id: 3,
         title: 'Share me',
-        desc: 'A dynamic web application, to create beautiful moments and capture beautiful events and you can select from a variety of categories. Users can download, post, comment and save posts',
+        desc: 'This well-tailored functionality allows for users to create, share, save and download all those memorable and remarkable moments they share with friends and family.',
         href:'https://shareme-zakjak.netlify.app',
         pics: [
             '/assets/shareme/shareme-1.png',

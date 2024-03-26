@@ -7,15 +7,15 @@ const RightSection = () => {
       <div>
         <h1 className='font-bold text-2xl text-zinc-700'>Education</h1>
         <p><b>Texas Tech University</b> <br />
-        <span className='text-sm'>MSc Petroleum Engineering, USA (2022 – 2024).</span></p>        
+        <span className='text-sm'>MSc Petroleum Engineering, USA (August, 2022 – August,2024).</span></p>        
         <p><b>Tyumen Industrial University</b> <br />
         <span className='text-sm'>Bachelor of Science in Petroleum Engineering (Exploitation), 
-        Russia (2018 – 2022).</span></p>
+        Russia (August, 2018 – May, 2022).</span></p>
         <p><b>Accra Academy</b> <br />
         <span className='text-sm'>(WASSCE, General Science), Ghana (2013 – 2016)</span></p>
       </div>
       <div>
-        <h1 className='font-bold text-2xl text-zinc-700'>Languages</h1>
+        <h1 className='font-bold text-xl text-zinc-700'>Languages</h1>
         <div className='lg:flex lg:flex-col gap-1'>
           <span>- English (Fluent)</span>
           <span>- Fluent in Russian</span>
@@ -24,7 +24,7 @@ const RightSection = () => {
         </div>
       </div>
       <div>
-        <h1 className='font-bold text-2xl text-zinc-700'>Courses</h1>
+        <h1 className='font-bold text-xl text-zinc-700'>Fields of Interest and Specialization </h1>
         <ul className='text-sm'>
           <li>- Drilling</li>
           <li>- Advance Reservoir Engineering</li>
@@ -42,8 +42,8 @@ const RightSection = () => {
             <p>
               <b>Prof. Mulyavin Simion Fedrovich</b>
               <div className='text-sm flex flex-col'>
-                <span>Tyumen Industrial University</span>
-                <span>Tyumen – Russia.</span>
+                <span>Tyumen Industrial University,</span>
+                <span>Tyumen, Russia.</span>
                 <span>Email: muljavinsf@tyuiu.ru</span>
               </div>
             </p>
@@ -52,9 +52,8 @@ const RightSection = () => {
             <p>
               <b>Dr. Gamadi Talal</b> <br />
               <div className='text-sm flex flex-col'>
-                <span>Texas Tech University</span>
+                <span>Texas Tech University, USA</span>
                 <span>Email: talal.gamadi@ttu.edu</span>
-                <span>(Supervisor)</span>
               </div>
             </p>
           </div>
