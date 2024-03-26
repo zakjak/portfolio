@@ -38,7 +38,7 @@ const AboutSmall = () => {
                     </div>
                     <div className='flex items-center gap-2'>
                         <FaLinkedin className='text-2xl' />
-                        <Link href='https://www.linkedin.com/in/yakubu-zakaria-4a7652300' className='text-xl underline'>Yakubu Zakaria</Link>
+                        <Link href='www.linkedin.com/in/yakubu-zakaria-90a7b6224' className='text-xl underline'>Yakubu Zakaria</Link>
                     </div>
                     <div className='flex items-center gap-2'>
                         <BsFillTelephoneFill className='text-2xl' />
