@@ -18,8 +18,7 @@ const RightEmployment = () => {
             </div>
             
             <div>
-                <li>2.
-                    <b> Tutor</b>: Rising Sun Academy, Tamale, Ghana, 2016 – 2018.
+                <li>2. <b> Tutor</b>: Rising Sun Academy, Tamale, Ghana, 2016 – 2018.
                 </li>
                 <div>
                     <h3 className='font-semibold'>Key Responsibilities</h3>
