@@ -4,8 +4,8 @@ import React from 'react'
 const RightSection = () => {
   return (
     <div className='col-span-8 lg:col-span-2 bg-card card rounded-lg p-4 w-full rounded-lgbackdrop-blur-[20px]'>
-      <div className=''>
-        <div>
+      <div className='flex flex-col justify-around h-full'>
+        <div className='flex flex-col gap-2'>
           <h1 className='font-bold text-2xl text-zinc-700'>Education</h1>
           <p><b>Texas Tech University</b> <br />
           <span className='text-sm'>MSc Petroleum Engineering, USA (August, 2022 – August,2024).</span></p>        
