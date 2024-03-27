@@ -8,7 +8,7 @@ import OtherTechnologies from './OtherTechnologies'
 
 const AboutLeft = () => {
   return (
-    <div className='col-span-2 hidden lg:block overflow-hidden bg-card card text-white rounded-lg backdrop-blur-[20px]'>
+    <div className='col-span-2 hidden lg:block overflow-hidden bg-card card rounded-lg backdrop-blur-[20px]'>
         <div className='relative h-[22em] overflow-hidden'>
             <Image alt='Yakubu Zakaria profile image' className='w-full h-full lg:h-[28em] object-cover object-top' src='/cv.jpg' width={240} height={240} />
             <div className='absolute bottom-0 bg-gradient-to-t from-black to-transparent w-full h-12 flex items-center p-4'>

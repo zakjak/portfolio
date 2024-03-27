@@ -52,7 +52,7 @@ const RightSection = () => {
             <p>
               <b>Dr. Gamadi Talal</b> <br />
               <div className='text-sm flex flex-col'>
-                <span>Texas Tech University, USA</span>
+                <span>Texas Tech University, Texas, USA.</span>
                 <span>Email: talal.gamadi@ttu.edu</span>
               </div>
             </p>
