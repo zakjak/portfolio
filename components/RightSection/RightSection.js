@@ -3,8 +3,8 @@ import React from 'react'
 
 const RightSection = () => {
   return (
-    <div className='col-span-8 lg:col-span-2 w-full rounded-lg'>
-      <div className='bg-card card rounded-lg backdrop-blur-[20px] p-4'>
+    <div className='col-span-8 lg:col-span-2 bg-card card rounded-lg p-4 w-full rounded-lgbackdrop-blur-[20px]'>
+      <div className=''>
         <div>
           <h1 className='font-bold text-2xl text-zinc-700'>Education</h1>
           <p><b>Texas Tech University</b> <br />
