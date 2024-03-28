@@ -5,8 +5,9 @@ import RightVoluntary from './RightVoluntary'
 
 const AboutMiddle = () => {
   return (
-    <div className='flex flex-col gap-2 w-full lg:overflow-hidden lg:scroll-smooth lg:h-[62rem] rounded-lg'>
-      <div className='overflow-y-auto scroll flex flex-col gap-2'>
+    <div className='w-full shadow-md lg:overflow-hidden scroll lg:scroll-smooth 
+    rounded-lg bg-card card backdrop-blur-[20px]'>
+      <div className='ov overflow-y-scroll lg:h-[62rem] py-4 px-6'>
         <RightCareer />
         <RightEmployment />
         <RightVoluntary />

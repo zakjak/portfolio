@@ -2,8 +2,8 @@ import React from 'react'
 
 const RightVoluntary = () => {
   return (
-    <div className='py-4 px-6 shadow-md rounded-lg bg-card card card text-black backdrop-blur-[20px]'>
-      <h1 className='font-bold text-2xl text-zinc-700'>
+    <div className=''>
+      <h1 className='font-bold text-2xl'>
         Voluntary Service
       </h1>
       <div className='w-[90%]'>

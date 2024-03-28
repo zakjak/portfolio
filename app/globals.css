@@ -38,6 +38,6 @@ body{
   -webkit-backdrop-filter: blur( 20px );
 }
 
-.scroll::-webkit-scrollbar{
-  @apply lg:w-0 lg:bg-transparent;
-}
+/* .scroll::-webkit-scrollbar{
+  @apply w-4;
+} */

@@ -2,8 +2,8 @@ import React from 'react'
 
 const RightEmployment = () => {
   return (
-    <div className='py-4 px-6 shadow-md bg-card card text-black rounded-lg backdrop-blur-[20px]'> 
-        <h1 className='font-bold text-2xl text-zinc-700'>
+    <div className=''> 
+        <h1 className='font-bold text-2xl'>
           Employment
         </h1>
         <ul className='w-[90%] flex flex-col gap-2 text-justify text-sm md:text-base'>
