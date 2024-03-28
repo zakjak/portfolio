@@ -19,9 +19,9 @@ const RightSection = () => {
           <h1 className='font-bold text-xl text-zinc-700'>Languages</h1>
           <div className='flex flex-col gap-1'>
             <span>- English (Fluent)</span>
-            <span>- Fluent in Russian</span>
-            <span>- Dagbani</span>
-            <span>- Twi.</span>
+            <span>- in Russian (Fluent)</span>
+            <span>- Dagbani (Fluent)</span>
+            <span>- Twi. (intermediate)</span>
           </div>
         </div>
         <div>
