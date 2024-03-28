@@ -7,7 +7,7 @@ const AboutMiddle = () => {
   return (
     <div className='w-full shadow-md lg:overflow-hidden scroll lg:scroll-smooth 
     rounded-lg bg-card card backdrop-blur-[20px]'>
-      <div className='ov overflow-y-scroll lg:h-[62rem] py-4 px-6'>
+      <div className='ov overflow-y-scroll lg:h-[62rem] py-4 px-6 flex flex-col gap-2'>
         <RightCareer />
         <RightEmployment />
         <RightVoluntary />
