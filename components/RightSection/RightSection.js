@@ -8,7 +8,7 @@ const RightSection = () => {
         <div className='flex flex-col gap-2'>
           <h1 className='font-bold text-2xl text-zinc-700'>Education</h1>
           <p><b>Texas Tech University</b> <br />
-          <span className='text-sm'>MSc Petroleum Engineering, USA (August, 2022 – August,2024).</span></p>        
+          <span className='text-sm'>MSc Petroleum Engineering, USA (August, 2022 – August, 2024).</span></p>        
           <p><b>Tyumen Industrial University</b> <br />
           <span className='text-sm'>Bachelor of Science in Petroleum Engineering (Exploitation), 
           Russia (August, 2018 – May, 2022).</span></p>
@@ -17,7 +17,7 @@ const RightSection = () => {
         </div>
         <div>
           <h1 className='font-bold text-xl text-zinc-700'>Languages</h1>
-          <div className='lg:flex lg:flex-col gap-1'>
+          <div className='flex flex-col gap-1'>
             <span>- English (Fluent)</span>
             <span>- Fluent in Russian</span>
             <span>- Dagbani</span>
